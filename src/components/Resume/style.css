@@ -1,3 +1,7 @@
+h4 {
+    font-style: italic;
+}
+
 .skills .progress {
     height: 60px;
     display: block;
@@ -53,4 +57,18 @@
 
 .ps-prog {
     width: 75%;
+}
+
+.school {
+    font-weight: bold;
+}
+
+.date {
+    font-style: oblique;
+    font-size: small;
+    margin-top: -15px;
+}
+.school-content {
+    margin-bottom: 10px;
+    margin-top: -10px;
 }
