@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Hero from './components/Hero'; 
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-// import Resume from './components/Resume'
+import Resume from './components/Resume'
 // import Contact from './components/Contact';
 import Footer from './components/Footer'
 import AOS from 'aos';
@@ -13,7 +13,10 @@ import AOS from 'aos';
 function App() {
   useEffect(() => {
     AOS.init({
-      duration : 1500
+      duration : 1500,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
     });
   }, []);
 
@@ -26,7 +29,7 @@ function App() {
           <Hero /> 
           <About />
           <Portfolio />
-          {/* <Resume /> */}
+          <Resume />
           {/* <Contact /> */} 
 
           <Footer />
