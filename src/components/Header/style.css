@@ -1,7 +1,7 @@
 .navbar {
     position: relative;
     width: 100%;
-    background: #161415 no-repeat top center;
+    background: var(--dark) no-repeat top center;
     display: flex;
     flex-direction: row;
     /* text-align: center; */
@@ -37,7 +37,7 @@
 .nav-menu a:focus {
     display: flex;
     align-items: center;
-    color: #a8a9b4;
+    color: var(--white);
     padding: 12px 15px;
     margin-bottom: 8px;
     transition: 0.3s;
@@ -49,7 +49,7 @@
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
     text-decoration: none;
-    color: var(--white);
+    color: var(--primary);
 }
 
 .nav-menu a:hover i,
