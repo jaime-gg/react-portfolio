@@ -6,7 +6,7 @@ function Footer() {
     return (
         <section id="footer" className="footer">
             <div className="container">
-                <div className="container" data-aos="fade-in">
+                <div className="container" >
                     <div className=" row d-flex  justify-content-center align-items-stretch info">
                         <div className="address col-lg-4 col-md-4 col-sm-12 c-item">
                             <i className='bx bx-map' ></i>

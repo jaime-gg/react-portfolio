@@ -18,7 +18,7 @@
     position: relative;
     z-index: 2;
     min-width: 300px;
-    margin-left: -70px;
+    /* margin-left: -70px; */
 }
 
 #hero h1 {
