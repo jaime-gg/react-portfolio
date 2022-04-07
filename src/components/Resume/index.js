@@ -1,10 +1,11 @@
 import React from 'react';
+import './style.css'
 
 function Resume() {
 
     return (
         
-        <section id="resume" className="resume second-bg">
+        <section id="resume" className="skills fade-in">
             <div className="container">
     
                 <div>
@@ -20,21 +21,21 @@ function Resume() {
                     <div className="progress">
                         <span className="skill">HTML <i className="percent">100%</i></span>
                         <div className="progress-bar-wrap">
-                        <div className="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress-bar html-prog" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
         
                     <div className="progress">
                         <span className="skill">CSS <i className="percent">95%</i></span>
                         <div className="progress-bar-wrap">
-                        <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress-bar css-prog" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
         
                     <div className="progress">
                         <span className="skill">JavaScript <i className="percent">85%</i></span>
                         <div className="progress-bar-wrap">
-                        <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress-bar js-prog" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
         
@@ -45,21 +46,21 @@ function Resume() {
                     <div className="progress">
                         <span className="skill">Node.Js <i className="percent">80%</i></span>
                         <div className="progress-bar-wrap">
-                        <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress-bar node-prog" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
         
                     <div className="progress">
                         <span className="skill">Illustrator <i className="percent">85%</i></span>
                         <div className="progress-bar-wrap">
-                        <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress-bar illustrator-prog" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
         
                     <div className="progress">
                         <span className="skill">Photoshop <i className="percent">75%</i></span>
                         <div className="progress-bar-wrap">
-                        <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress-bar ps-prog" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     </div>
