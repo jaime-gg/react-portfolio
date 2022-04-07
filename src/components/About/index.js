@@ -11,7 +11,10 @@ function About() {
                 </div>
 
                 <div className="row">
-                    <div className="content" data-aos="fade-right">
+                    <div class="col-lg-4" data-aos="fade-right"> 
+                        <img src={require('../../Assets/profile-img.jpg')} className="img-fluid" alt="" />
+                    </div>
+                    <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-right">
                         <p className="fst-italic">
                             "Art is the most intense mode of individualism that the world has known." ~Oscar Wilde
                         </p>
