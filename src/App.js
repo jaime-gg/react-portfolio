@@ -11,21 +11,26 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div className="App">
+      <head>
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+      </head>
       <header className="App-header">
         <Header />
       </header>
-      <main>
+        <main>
         <body>
           <Hero /> 
           <About />
-          <Portfolio />
-          <Resume />
-          <Contact />
+          {/* <Portfolio /> */}
+          {/* <Resume /> */}
+          {/* <Contact /> */} 
         </body>
-        <footer>
+        {/* <footer>
           <Footer />
-        </footer>
-      </main>
+        </footer> */}
+      </main> 
     </div>
   );
 }
