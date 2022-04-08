@@ -1,11 +1,14 @@
 import React from 'react';
 import './style.css';
 
+// PULL IN THE NESSESSARY PROPS
 function Header({ currentPage, handlePageChange }) {
 
     return (
         <nav>
             <nav id="navbar" className="nav-menu navbar1">
+                {/* ON EACH CLICK, UPDATE THE 'CURRENT-PAGE' THROUGH THE 'HANDLE-PAGE-CHANGE' */}
+                {/* WHEN ACTIVE, ADD AN 'ACTIVE' CLASS FOR HIGHLIGHTING THE NAV SELECTION */}
                 <ul className="justify-content-center">
                     <li>
                         <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'active nav-link scrollto' : 'nav-link scrollto'} ><span>About Me</span></a>
