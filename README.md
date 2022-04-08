@@ -55,4 +55,4 @@ The following animation demonstrates link functionality and the downloadable res
 
 * Github: https://github.com/jaime-gg/react-portfolio
 
-* Deployed Application: 
+* Deployed Application: https://jaime-gg.github.io/react-portfolio/ 
