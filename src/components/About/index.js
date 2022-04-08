@@ -11,7 +11,7 @@ function About() {
                 </div>
 
                 <div className="row">
-                    <div class="col-lg-4" data-aos="fade-right"> 
+                    <div className="col-lg-4" data-aos="fade-right"> 
                         <img src={require('../../Assets/profile-img.jpg')} className="img-fluid" alt="" />
                     </div>
                     <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-right">

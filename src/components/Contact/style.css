@@ -47,3 +47,11 @@
 .contact .php-email-form button[type="submit"]:hover {
     background: rgb(202, 0, 0);
 }
+
+.contact .error-text {
+    color: #fff;
+    background: var(--secondary);
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}

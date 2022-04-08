@@ -1,32 +1,70 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.css'
+
+import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
 
+    const [errorMessage, setErrorMessage] = useState('');
+
+    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+    const { name, email, message } = formState;
+
+    function handleInputChange(e) {
+        if (e.target.name === 'email') {
+            const isValid = validateEmail(e.target.value);
+            if (!isValid) {
+                setErrorMessage('Your email is invalid.');
+            } else {
+                setErrorMessage('');
+            }
+        } else {
+            if (!e.target.value.length) {
+                setErrorMessage(`${e.target.name} is required.`);
+            } else {
+                setErrorMessage('');
+            }
+        }
+        if (!errorMessage) {
+            setFormState({ ...formState, [e.target.name]: e.target.value });
+        }
+    }
+
+    const handleFormSubmit = (e) => {
+        e.preventDefault();
+        console.log(formState);
+    }
+
+
     return (
-        <section id="contact" class="container">
-            <div class="section-title">
+        <section id="contact" className="container">
+            <div className="section-title">
                 <h2>Contact Me</h2>
             </div>
-            <div class="contact" data-aos="fade-in">
-                <form class="php-email-form">
-                    <div class="col-md-8 form-row justify-content-center">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+            <div className="contact" data-aos="fade-in">
+                <form className="php-email-form">
+                    <div className="col-md-8 form-row justify-content-center">
+                        <div className="form-group">
+                            <label htmlFor="name">Your Name</label>
+                            <input onBlur={handleInputChange} defaultValue={name} type="text" name="name" className="form-control" id="name" />
                         </div>
-                        <div class="form-group ">
-                            <label for="name">Your Email</label>
-                            <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                        <div className="form-group ">
+                            <label htmlFor="name">Your Email</label>
+                            <input onBlur={handleInputChange} defaultValue={email} type="email" className="form-control" name="email" id="email" />
                         </div>
-                        <div class="form-group">
-                            <label for="name">Message</label>
-                            <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                        <div className="form-group">
+                            <label htmlFor="name">Message</label>
+                            <textarea onBlur={handleInputChange} defaultValue={message} className="form-control" name="message" rows="8" ></textarea>
                         </div>
 
-                        <div class="text-center"><button type="submit">Send Message</button></div>
+                        <div className="text-center"><button type="submit" onClick={handleFormSubmit}>Send Message</button></div>
                     </div>
                 </form>
+                {errorMessage && (
+                    <div>
+                        <p className="error-text">{errorMessage}</p>
+                    </div>
+                )}
             </div>
         </section>
     )
