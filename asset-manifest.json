@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.51ef533b.css",
+    "main.js": "/react-portfolio/static/js/main.9c41c44f.js",
+    "static/css/907.65819042.chunk.css": "/react-portfolio/static/css/907.65819042.chunk.css",
+    "static/js/907.807272b3.chunk.js": "/react-portfolio/static/js/907.807272b3.chunk.js",
+    "static/media/boxicons.svg": "/react-portfolio/static/media/boxicons.0153fb5e5b5f697b4bcc.svg",
+    "static/media/hero.jpg": "/react-portfolio/static/media/hero.bff94b5ac185cd354c49.jpg",
+    "static/media/boxicons.eot": "/react-portfolio/static/media/boxicons.21f7c5dd64d88e1fc666.eot",
+    "static/media/boxicons.woff": "/react-portfolio/static/media/boxicons.02aa967c5bfb9489501a.woff",
+    "static/media/boxicons.ttf": "/react-portfolio/static/media/boxicons.ad0ddae357213656b3e6.ttf",
+    "static/media/profile-img.jpg": "/react-portfolio/static/media/profile-img.a3bf6daa0e20a4b03f22.jpg",
+    "static/media/portfolio-1.png": "/react-portfolio/static/media/portfolio-1.8951348ca0d0b71adeef.png",
+    "static/media/portfolio-5.png": "/react-portfolio/static/media/portfolio-5.071925e54d0feb306cd4.png",
+    "static/media/portfolio-6.png": "/react-portfolio/static/media/portfolio-6.fd5251ad9c7095fc66ee.png",
+    "static/media/boxicons.woff2": "/react-portfolio/static/media/boxicons.0335b427967c56248ea6.woff2",
+    "static/media/portfolio-3.png": "/react-portfolio/static/media/portfolio-3.71e3f258810d20e37dbe.png",
+    "static/media/portfolio-2.png": "/react-portfolio/static/media/portfolio-2.2e25e2fd9cba19695904.png",
+    "static/media/portfolio-4.png": "/react-portfolio/static/media/portfolio-4.803c97cca56bdf9be28d.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.51ef533b.css.map": "/react-portfolio/static/css/main.51ef533b.css.map",
+    "main.9c41c44f.js.map": "/react-portfolio/static/js/main.9c41c44f.js.map",
+    "907.65819042.chunk.css.map": "/react-portfolio/static/css/907.65819042.chunk.css.map",
+    "907.807272b3.chunk.js.map": "/react-portfolio/static/js/907.807272b3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51ef533b.css",
+    "static/js/main.9c41c44f.js"
+  ]
+}
