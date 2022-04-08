@@ -83,7 +83,7 @@ function Resume() {
                 <div>
                     <br />
                     <h4>Resume PDF</h4>
-                    <p> View a digital copy of my resume on <a className='school' href="https://docs.google.com/document/d/1C5w6YJzBKuIioUoM90Z4tVT-1jd4DSQfPgFxJZlOb8Q/edit?usp=sharing">Google Docs</a> </p>
+                    <p> View a downloadable copy of my resume on <a className='school' href="https://docs.google.com/document/d/1C5w6YJzBKuIioUoM90Z4tVT-1jd4DSQfPgFxJZlOb8Q/edit?usp=sharing">Google Docs</a> </p>
             
                 </div>
             </div>
