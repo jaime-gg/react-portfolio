@@ -43,11 +43,6 @@ function App() {
         <main>
           <Hero /> 
 
-          {/* <About />
-          <Portfolio />
-          <Resume />
-          <Contact />  */}
-
           {renderPage()}
 
           <Footer />

@@ -47,8 +47,16 @@
 }
 
 .footer .info .email:hover i,
-.footer .info .address:hover i,
+.footer .info .github:hover i,
 .footer .info .github:hover i {
     background: var(--primary);
     color: var(--white);
+}
+
+.footer .info a {
+    color: var(--white);
+}
+
+.footer .info a:hover {
+    color: var(--secondary);
 }
